@@ -7,28 +7,54 @@
   <title>４５歳から初めてのプログラミング学習奮闘記</title>
 <link rel="stylesheet" href="css/index.css" />
 <link rel="stylesheet" href="css/reset.css" />
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Sawarabi+Mincho&family=Train+One&display=swap');
+</style>
 </head>
 <body>
   <main class="main_area">
-    <div>
-      <h1>４５歳から初めてのプログラミング学習奮闘記</h1>
+    <div class="title_area">
+      <h1 class="title_item">４５歳から初めてのプログラミング学習</h1>
     </div>
-    <div>
-      <div>
-        <h3>目次</h3>
+    <nav class="nav" id="nav">
+      <div class="menu_area">
+        <div class="menu_item_area">
+          <h3 class="menu_item">目次</h3>
+        </div>
+        <div>
+          <ul>
+            <li><a href="trigger.html">なぜ始めたか？</a></li>
+            <li><a href="career.html">経歴</a></li>
+            <li><a href="achieve.html">何ができるようになったか？</a></li>
+            <li><a href="next.html">これから何がしたいか？</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <ul>
-          <li><a href="trigger.html">なぜ始めたか？</a></li>
-          <li><a href="career.html">経歴</a></li>
-          <li><a href="achieve.html">何ができるようになったか？</a></li>
-          <li><a href="next.html">これから何がしたいか？</a></li>
-        </ul>
-      </div>
+    </nav>
+    <div class="menu" id="menu">
+      <span class="menu__line--top"></span>
+      <span class="menu__line--middle"></span>
+      <span class="menu__line--bottom"></span>
     </div>
-
+    <flore class="floor" id="floor">
+      <div class="floor_area">
+        <p class="floor_item_welcome">
+          Welcome!
+        </p>
+      </div>
+      <div class="floor_item_text_area">
+        <p class="floor_item_text">
+          It's my portforio.
+        </p>
+        <p class="floor_item_text">
+          I was ashamed to make it.
+        </p>
+        <p class="floor_item_text">
+          Nice to meet you.
+        </p>
+      </div>
+    </flore>
   </main>
-
-
+  <script src="js/main.js"></script>
 </body>
 </html>

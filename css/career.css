@@ -1,0 +1,44 @@
+.main_area {
+  background-image: url("../../pj/img/shizen-1.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.return_area {
+  width: 80%;
+  margin: 50px;
+}
+
+.text_area {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.title_area {
+  margin: 50px auto;
+}
+
+.title_item {
+  font-size: 20px;
+  color: white;
+}
+
+.text_area li {
+  color: white;
+  line-height: 30px;
+}
+
+.text_p_item {
+  color: white;
+  margin: 20px 0px;
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  width: 50%;
+}
+
+a {
+  color: white;
+}
