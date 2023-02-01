@@ -1,7 +1,5 @@
 .main_area {
-  background-image: url("../../pj/img/shizen-2.JPG");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(45deg, rgb(14, 50, 39), transparent);
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
