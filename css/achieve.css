@@ -1,8 +1,9 @@
 .main_area {
-  background: linear-gradient(45deg, rgb(14, 50, 39), transparent);
   width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
+  background: url('../img/hukei-2.jpg?nf_resize=fit');
+  background-size: cover;
 }
 
 .return_area {
